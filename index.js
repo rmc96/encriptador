@@ -94,7 +94,7 @@ function copiar(){
     mensaje.select();
     navigator.clipboard.writeText(mensaje.value)
     mensaje.value = "";
-    mensaje.style.backgroundImage = `url("/img/fondo.png")`;
+    mensaje.style.backgroundImage = `url("img/fondo.png")`;
     copia.style.display = "none" 
     textArea.focus();  
     Swal.fire(
